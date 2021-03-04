@@ -25,7 +25,7 @@ struct CELE {
 };
 
 /* Optionally supply function that gets invoked when parameter changes */
-typedef void (*setter_function)(int oldval);
+typedef void (*setter_function)();
 
 /* Integer-valued parameters */
 typedef struct PELE param_ele, *param_ptr;
